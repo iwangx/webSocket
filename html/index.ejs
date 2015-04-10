@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no,minimal-ui"/>
+    <meta name="author" content="wangxing">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="copyright" content="Copyright (c) 1998-2014 81tai">
+    <meta name="format-detection" content="telephone=no">
+    <title>标题1</title>
+    <link rel="stylesheet" href="/css/index.css"/>
+</head>
+<body>
+
+    <ul id="list" class="list">
+
+    </ul>
+    <div id="hidden" class="hidden">;&nbsp</div>
+
+    <div id="bottom" class="bottom">
+        <div class="box">
+            <div>
+                发给哪个：
+            </div>
+            <input id="sender" type="text" />
+        </div>
+        <div class="bottom_box">
+            <iframe id="iframe"></iframe>
+            <button id="face" class="face"><i class="iconfont">&#xe64a;</i></button>
+            <button id="send">发送</button>
+        </div>
+        <div id="expression" class="expression hide">
+            <div class="swiper-container">
+                <div id="wrapper" class="swiper-wrapper">
+
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script id="adjust" src="/js/adjust.js"></script>
+    <script src="/js/zepto.min.js"></script>
+    <script src="/js/socket.io.js"></script>
+    <script src="/js/swiper.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>

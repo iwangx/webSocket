@@ -1,0 +1,15 @@
+ {
+    "name": "IM",
+    "version": "0.0.1",
+    "devDependencies": {
+        "express": "*",
+        "routes":"*",
+        "http":"*",
+        "path":"*",
+        "socket.io":"*",
+        "fs":"*",
+        "url":"*",
+        "ejs":"*",
+        "WebSocket-Node":"*"
+    }
+}
